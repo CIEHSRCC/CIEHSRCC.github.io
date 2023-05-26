@@ -1,4 +1,4 @@
-﻿*{box-sizing:border-box;}
+*{box-sizing:border-box;}
 html{scroll-behavior: smooth;}
 
 body{margin:0;padding:0;}
@@ -39,7 +39,7 @@ body{margin:0;padding:0;}
 
 /*HERO IMAGE BAR CSS*/
 
-.hero-image{display: flex;flex-direction:column;background-image: url("img/SRCCbanner.jpg");width: 100%;height: 100vh;background-position:center;background-repeat: no-repeat;background-size:cover;align-self: center;align-items: center;justify-content:center;}
+.hero-image{display: flex;flex-direction:column;background-image: url("img/s.png");width: 100%;height: 100vh;background-position:center;background-repeat: no-repeat;background-size:cover;align-self: center;align-items: center;justify-content:center;}
 
 .hero-div{background-color:rgb(255,255,255,0.7);padding:5px;margin:20px;border-radius:10px;}
 
@@ -49,14 +49,14 @@ body{margin:0;padding:0;}
 .heropi{font-family:Book Antiqua;font-style:italic;color:rgb(128,0,0);margin:0px;padding-right:20px;padding-left:20px;font-size:2vw;text-align:center;}
 .herop{font-family:Book Antiqua;font-weight:bold;color:#000066;font-size:2.75vw;text-align:center;margin:0px 20px 20px 20px;}
 
-.herolist{display:flex;font-family:Verdana; width:100%;margin:10px;padding:0;justify-content:space-evenly;font-size:20px; font-weight:bold;}
+.herolist{display:flex;font-family:Verdana; width:100%;margin:10px;padding:10px;justify-content:space-evenly;font-size:20px; font-weight:bold;}
 
 .herolist li{list-style:none;}
 
 
 /*POP-UP CSS*/
 
-.popup{background-color: #000066;width: 35vh;padding: 5px 20px;position: absolute;right: 0%;top: 35%;border-radius: 8px;
+.popup{background-color: #000066;width: 35vh;padding: 5px 20px;position: absolute;right: 0%;top: 33%;border-radius: 8px;
     font-family: Verdana;display: none;text-align: center;}
 
 .popup button{display: block;margin:  0 0 20px auto;background-color: transparent;font-size: 30px;color: #c5c5c5;border: none;outline: none;cursor: pointer;}
@@ -91,6 +91,14 @@ padding: 5px 0;border-radius:10px;}
 
 #myBtn:hover {background-color:rgb(128,0,0,0.4);color:white;}
 
+/*SPECIAL SECTION*/
+
+
+.special-section{display:flex;justify-content:center;margin: 10px 20px 0 20px;padding:0px;}
+.special-section h2{font-family:Montserrat;color:#A88F5F;text-align:left;padding:20px 20px 0 0;}
+.capcase{font-size:45px;font-weight:bold;}
+.special-section p{font-family:Montserrat;color:#A88F5F;font-size:18px;text-align:justify;padding:20px 30px 0 0;}
+.special-section img{height:100%;padding:50px 0;}
 
 
 
@@ -104,10 +112,17 @@ padding: 5px 0;border-radius:10px;}
 .sectionp{font-family:Verdana;font-size:15px;text-align:justify;margin:0px;padding:0px 50px 10px 50px;line-height: 1.5;}
 
 .kmlink{font-family:Verdana;background-color: #000066;border: none;color: white;padding: 12px 30px;cursor: pointer;font-size: 15px;border-radius:10px;font-weight:bold;text-decoration:none;color:white;}
-.kmlink:hover{text-decoration:none;color:#000066;background-color: white;border:2px solid #000066;}
+.kmlink:hover{text-decoration:none;color:#000066;background-color: yellow;border:2px solid yellow;}
 .pcenter{display: flex;justify-content: center;align-items: center;margin:0px;padding:0px;}
-.pfigure{width:10vw; margin:10px 0 10px 0; margin-left:auto; margin-right:auto;display:block;}
+.pfigure{width:30vh; margin:10px 0 10px 0; margin-left:auto; margin-right:auto;display:block;}
 
+/*THEME SECTION*/
+.column2 {float: left;width: 20%;margin-bottom: 16px;padding:0 8px;}
+.column3 {float: left;width: 25%;margin-bottom: 16px;padding:0 8px;}
+.container2 {margin:0px;height:120px;background-color:#000066;}
+.container2::after{content: "";clear: both;display: table;}
+.card2 {box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);margin:0px;padding:0px;}
+.title {font-family:Verdana;color: white;font-weight:bold;margin:0;font-size:15px;padding:30px 10px;text-align:center;}
 
 /*MEET THE SPEAKER SECTION*/
 
@@ -119,11 +134,11 @@ padding: 5px 0;border-radius:10px;}
 
 
 
-.container::after, .row1::after {content: "";clear: both;display: table;}
+.container::after, .row1::after{content: "";clear: both;display: table;}
 
 .container p{color:black;font-weight:bold;font-size:15px;padding:2px;margin:5px;text-align:center;font-family:Verdana;}
 
-.title {color: inherit;padding:0px;margin:0px;font-size:18px;}
+
 
 
 .button {font-family:Verdana;border: none;outline: 0;display: inline-block;padding: 8px;color: white;background-color: #000;text-align: center;cursor: pointer;width: 100%;font-size: 18px;margin:0px;}
@@ -161,7 +176,7 @@ font-weight:bold;}
 
 .address1 a:hover{color:rgb(250,230,200);text-decoration:overline;}
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
 .popup{width:100%;margin:auto;top:90%;}
 .nav-links{position: fixed;left: -100%;top: 5rem;flex-direction: column;background-color: white;width: 100%;border-radius: 10px;text-align: center;transition: 0.3s;
         box-shadow:0 10px 27px rgba(0, 0, 0, 0.05);}
@@ -176,8 +191,16 @@ font-weight:bold;}
 .heropi{font-size:2vh;}
 .herop{font-size:3vh;}
 .herolist{flex-direction: column;text-align: center;justify-content:center;}
+.special-section{flex-direction:column;}
+.special-section h2{text-align:center;padding:0;margin:0;}
+.special-section p{text-align:justify;padding:0 20px 0 20px;margin:0;}
+.special-section img{width:100%; padding:50px 0 0 0;}
 .column{width: 100%;flex-direction:column;text-align:center;justify-content:center;}
 .column1 {width: 100%;display: block;}
+.column2 {width: 100%;display: block;}
+.column3 {width: 100%;display: block;}
+.container2 {height:40px;}
+.title {font-size:15px;padding:2px;}
 footer{width: 100%;}
 .footer1{width: 100%;flex-direction:column}
 .footer-list{flex-direction:column}

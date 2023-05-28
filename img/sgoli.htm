@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Srinivas Goli</title>    
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" /><!-- fontawesome -->     
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" /><!-- Bootstrap stylesheet -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
+<!-- stylesheet -->
+<!-- meta tags -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="srinvasgoli" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //meta tags -->
+<!--fonts-->
+<link href="//fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<!--//fonts-->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script src="js/main.js"></script>
+<!-- Required-js -->
+<!-- main slider-banner -->
+<script src="js/skdslider.min.js"></script>
+<link href="css/skdslider.css" rel="stylesheet">
+<script type="text/javascript">
+		jQuery(document).ready(function(){
+			jQuery('#demo1').skdslider({'delay':5000, 'animationSpeed': 2000,'showNextPrev':true,'showPlayButton':true,'autoSlide':true,'animationType':'fading'});
+						
+			jQuery('#responsive').change(function(){
+			  $('#responsive_wrapper').width(jQuery(this).val());
+			});
+			
+		});
+</script>	
+<!-- //main slider-banner --> 
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+
+<!-- scriptfor smooth drop down-nav -->
+<script>
+$(document).ready(function(){
+    $(".dropdown").hover(            
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+            $(this).toggleClass('open');        
+        },
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
+            $(this).toggleClass('open');       
+        }
+    );
+});
+</script>
+<!-- //script for smooth drop down-nav -->
+</head>
+<body>
+<!-- header -->
+	<header>
+		<div class="w3layouts-top-strip">
+			<div class="container">
+				<div class="logo">
+					<div class='row'>
+					<h1><a href="index.php" style="
+    float: left;
+">Srinivas Goli</a></h1>
+</div>
+<div class='row'>
+<p style="
+    float: left;
+">INTERNATIONAL INSTITUTE FOR POPULATION SCIENCES (IIPS), Mumbai  </p>
+				</div>
+				</div>
+			
+			</div>
+		</div>
+		<!-- navigation -->
+			<nav class="navbar navbar-default">
+			  <div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				  <ul class="nav navbar-nav">
+			
+			
+				<li class="dropdown">
+					  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Teaching <span class="caret"></span></a>
+					  <ul class="dropdown-menu">
+					 <li><a href="phcourses.php">PhD and Master Degree Courses </a></li>
+						<!--<li><a href="mastercourse.php">Masters Courses</a></li>-->
+					<li><a href="phsupervision.php">Supervision of MPhil and PhD Students</a></li>
+					<li><a href="reading.php">Readings</a></li>
+					  </ul>
+					</li>
+					
+						<li class="dropdown">
+					  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Research Projects <span class="caret"></span></a>
+					  <ul class="dropdown-menu">
+					  <li><a href="majorproject.php">Major Research Projects</a></li>
+						<li><a href="researchproject.php">Consultancy Research Projects</a></li>
+					  </ul>
+					</li>
+					
+					<li class="dropdown">
+					  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Publications <span class="caret"></span></a>
+					  <ul class="dropdown-menu">
+					  <li><a href="books.php">Books</a></li>
+						<li><a href="journal.php">Journal Articles</a></li>
+						<li><a href="reprt.php">Reports</a></li>
+					<li><a href="chapters.php">Chapters</a></li>
+					<li><a href="workingchapter.php">Working Papers</a></li>
+					  </ul>
+					</li>
+					
+					<li><a href="media.php">Media</a></li>
+					
+					<li class="dropdown">
+					  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Professional Engagements <span class="caret"></span></a>
+					  <ul class="dropdown-menu">
+					  <li><a href="professional.php">Prefessional Membership</a></li>
+						<li><a href="expert.php">Expert Services</a></li>
+					<li><a href="invited.php">Invited Talks</a></li>
+					<li><a href="conference.php">Confrence & Seminars</a></li>
+					<li><a href="fellowship.php">Fellowships</a></li>
+					<li><a href="relatedlink.php">Related Link</a></li>
+					
+					  </ul>
+					</li>
+					
+					<li><a href="index.php" style="padding:10px;font-size:20px;"><i class="fa fa-home"></i></a></li>
+				
+				
+				  </ul>
+				</div><!-- /.navbar-collapse -->
+				<div class="w3_agile_login">
+							<div class="cd-main-header">
+								
+								<!-- cd-header-buttons -->
+							</div>
+							<div id="cd-search" class="cd-search">
+								<form action="#" method="post">
+									<input name="Search" type="search" placeholder="Search...">
+								</form>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+
+			  </div><!-- /.container-fluid -->
+			</nav>
+			
+		<!-- //navigation -->
+	</header>	<!-- //header -->
+	<!-- top-header and slider -->
+
+	<!-- //main-slider -->
+	<!-- //top-header and slider -->
+	<div class="container">
+		<div class="banner-btm-agile">
+		<!-- //btm-wthree-left -->
+		<div class='row' >
+		    <div class='col-md-12'>
+		        <div class='col-md-3' style="padding-top:10px;">
+<center><img src="images/hello.jpg" class="img-responsive"  style="height:;box-shadow:8px 4px 12px 0px #9a9ab5;"></center>
+		            
+		            </div>
+		            <div class='col-md-9'>
+		              <h1 style="
+    font-size: 25px;
+    
+    font-family: arial;text-align: center;
+">Srinivas Goli</h1>
+<br/>
+
+
+<p style="
+    font-size: 14px;
+    font-family: arial;
+     text-align: justify;
+">Dr. Goli is an Associate Professor in Demography at the International Institute for Population Sciences, Mumbai. Before joining IIPS, he was a New Generation Network Scholar at the Australia India Institute (AII) and UWA Public Policy Institute at the University of Western Australia. Also, he worked as an Assistant Professor in Population Studies at the Centre for the Studies in Regional Development (CSRD), School of Social Sciences (SSS), Jawaharlal Nehru University (JNU), New Delhi. He was a visiting faculty at the University of Gottingen, Germany, from May to June 2018. He has more than ten years of experience in teaching and M.Phil. & PhD supervision in demography, public health, and development studies. He guided five M.Phil. and ten PhD theses. He has been involved in several major projects funded by national and international organizations.<br/> His current research interests include population dynamics and its implications for development, family demography, gender and nutritional inequalities. He has significant publishing work to his credit. He serves as an academic editor for PLOS One, SAGE Open and the Journal of Sustainability.</p>
+
+
+
+
+
+
+		                </div>
+		        </div>
+		        
+
+</div>		
+
+<div class='row' style=" margin-top:30px;">
+    
+    
+    <div class='col-md-12'>
+<div class='col-md-3' style="padding-top:-100px;">
+    <center><h1 style="font-size:24px; font-family:arial;font-weight:bold;">About Me</h1></center>
+   <center><p style="font-size:16px; margin-top:10px; color:; font-weight:bold;"><a href="https://research-repository.uwa.edu.au/en/persons/srinivas-goli" target="_blank" style="color:;"><b></b></a></p></center>
+   <center><p style="font-size:16px; margin-top:5px;  color:; font-weight:bold;"><a href="https://iipsindia.ac.in/deparment-faculties/4634" target="_blank"><b>IIPS faculty profile</b></a></p></center>
+  
+   
+   
+   <center><p style="font-size:16px; margin-top:5px;  color:; font-weight:bold;"><a href="https://orcid.org/0000-0002-8481-484X" target="_blank" style="color:;"><b>ORCID</b></a></p></center>
+   
+   <center><p style="font-size:16px; margin-top:5px;  color:; font-weight:bold;"><a href="https://publons.com/dashboard/summary/" target="_blank" style="color:;"><b>Publons</b></a></p></center>
+   
+   <center><p style="font-size:16px; margin-top:5px;  color:; font-weight:bold;"><a href="https://scholar.google.com/citations?user=4uq1JWgAAAAJ&hl=en" target="_blank"><b>Google Scholar Citation</b></a></p></center>
+   <center><p style="font-size:16px; margin-top:5px;  color:; font-weight:bold;"><a href="https://www.mendeley.com/profiles/srinivas-goli/" target="_blank"><b>Mendeley</b></a></p></center>
+   <center><p style="font-size:16px; margin-top:5px;  color:; font-weight:bold;"><a href="https://www.researchgate.net/profile/Srinivas_Goli" target="_blank"><b>Researchgate</b></a></p></center>
+   <center><p style="font-size:16px; margin-top:5px; color:; font-weight:bold;"><a href="https://www.pubfacts.com/author/Srinivas+Goli" target="_blank"><b>PubFacts</b></a></p></center>
+    <center><p style="font-size:16px; margin-top:5px; color:; font-weight:bold;"><a href="https://www.scopus.com/authid/detail.uri?authorId=39761832500" target="_blank"><b>Scopus Author id</b></a></p></center>
+    
+                                 <center><p style="font-size:16px; margin-top:5px; color:; font-weight:bold;"><a href="Srinivas_Goli_CV Updated on 16th August.pdf" target="_blank"><b>CV (Pdf)</b></a></p></center>
+    
+    <!--<center><p style="font-size:16px; margin-top:10px; color:; font-weight:bold;"><b>Fellowships</b></p></center>-->
+    <center><p style="font-size:16px; margin-top:5px; color:; font-weight:bold;font-family:Lucida Handwriting;"><b><i>Research on my mind</i></b>
+    
+  <img src="image1.jpg" style="width: 87%;margin-left:8px;"></p>
+    </center>
+    
+    <br><br><br>
+    
+    <center><p style="font-size:18px; margin-top:5px; color:; font-weight:bold;"><a href="contact.php" target="_blank"><b>Contact</b></a></p></center>
+    
+    </div>
+    
+    <div class='col-md-9'>
+        
+        
+    
+
+</div>    
+<h1 style="
+    font-size: 25px;
+    
+    font-family: arial;text-align: center;
+">Latest Publications</h1><br/>
+
+Prasad, R.D., Ram, H. & Goli, S. (2023).  Multitude effects of intersection of gender, marital status and economic dependency on the health status of the elderly in India.J. Soc. Econ. Dev.(2023). https://doi.org/10.1007/s40847-023-00234-3 <br/><br/>
+
+Tiwari C, Jain N, Goli S, Puri P (2023). Political determinants of health: (re) examining the role of governance in reducing maternal mortality. Health Economics, Policy and Law 1–26. https://doi.org/10.1017/S174413 <br/><br/>
+
+Ganguly, D., Goli, S. and Oriel, S. (2023). Gender, Paid Work, and Mental Health of Adolescents and Young Adults in Resource-Poor Settings of India, 10.1007/s12187-023-10009-1.<br/><br/>
+
+Shalem Balla, Shivani Gharge, Srinivas Goli & Srilakshmi Vedantam (2022):
+Is There a Grand Convergence in Child Undernutrition Reduction? Evidence from 183 Countries,
+Journal of Human Development and Capabilities, DOI: 10.1080/19452829.2022.2143485<br><br>
+Ganguly, D., Goli, S., & Rammohan, A. (2022). Explaining the diminishing of Muslim advantage in child survival in India. Genus, 78(1): 1–42.<br><br>
+Das, M. and Goli, S. (2022). Do Fewer Births Bring More Prosperity? Economic and Political Weekly, Vol 57 (37).<br><br>
+
+    Jain, N., Goli, S.(2022) Potential demographic dividend for India, 2001 to 2061: a macro-simulation projection using the spectrum model. SN Soc Sci 2, 171.<br><br>
+
+Tiwari, C., Goli, S., Rammohan, A., (2022). Reproductive burden and its impact on female labour market outcomes in India: evidence from longitudinal analyses, Population Research and Policy Review 1-37.
+<br><br>
+Goli S, Mavisakalyan A, Rammohan A, Vu L. Exposure to conflict and child health outcomes: evidence from a large multi-country study. Confl Health. 2022 Oct 10;16(1):52. <br><br>
+
+Goli, S., Puri, P., Salve, P., Pallikadavath, S., & James, K. S. (2021). Estimates and Correlates of District-Level Maternal Mortality Ratio in India. PLOS Global Public Health, in Press.10.1371/journal.pgph.0000441.
+<br><br>
+
+
+
+
+    
+</div>
+</div>
+		
+			<div class="clearfix"></div>
+		</div>
+	</div>
+
+	<!-- copyright -->
+	<div class="copyright">
+		<div class="container">
+		
+			<div class="agileinfo">
+				<p>© 2020 Srinivas Goli. All Rights Reserved . Design by <a href="">Ssinfotech</a></p>
+			</div>
+		</div>
+	</div><!-- //copyright -->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

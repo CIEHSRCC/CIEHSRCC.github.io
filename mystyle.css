@@ -93,6 +93,8 @@ padding: 5px 0;border-radius:10px;}
 
 /*SPECIAL SECTION*/
 
+.time-line{width: 100%;color:white;background:linear-gradient(to right, #782614,#000066);font-size:12px;margin:0px;text-align:center;}
+.time-line h2{font-family:Verdana;font-size:20px;color:white;margin:0px;padding: 10px 0 10px 0;}
 
 .special-section{display:flex;justify-content:center;margin: 10px 20px 0 20px;padding:0px;}
 .special-section h2{font-family:Montserrat;color:#A88F5F;text-align:left;padding:20px 20px 0 0;}
@@ -101,20 +103,31 @@ padding: 5px 0;border-radius:10px;}
 .special-section img{height:100%;padding:50px 0;}
 
 
+.special-section2{display:flex;flex-direction:column;justify-content:center;margin:0px;padding:10px;}
+
+.special-section2 h2{font-family:Castellar;color:#000066;text-align:center;padding:10px;margin:0;}
+.special-section2 img{width:20%;padding:0 0 0 0;margin-left:auto;margin-right:auto;}
+.special-section2p{font-family:Verdana;font-size:15px;text-align:justify;margin:0px;padding:0px 50px 10px 50px;line-height: 1.5;}
+
+
+.special-section3{display:flex;flex-direction:column;justify-content:space-evenly;margin: 0px;padding:10px;}
+.special-section3 h2{font-family:Verdana;color:#000066;text-align:center;padding:10px;margin:0;}
+.special-section3p{font-family:Verdana;font-size:15px;text-align:justify;margin:0px;padding:0px 50px 10px 50px;line-height: 1.5;}
+
 
 /*INTEXT SECTION*/
 
 .intext-section{margin:0px;padding:10px;}
 
 .sectionh2{text-align:center;font-size:5vh;font-family:Verdana;color:#000066;margin:2px;}
-.sectionh3{text-align:center;font-size:25px;font-family:verdana;color:#000066;margin:5px;padding:5px;}
+.sectionh3{text-align:center;font-size:20px;font-family:verdana;color:#000066;margin:5px;padding:5px;}
 
 .sectionp{font-family:Verdana;font-size:15px;text-align:justify;margin:0px;padding:0px 50px 10px 50px;line-height: 1.5;}
 
 .kmlink{font-family:Verdana;background-color: #000066;border: none;color: white;padding: 12px 30px;cursor: pointer;font-size: 15px;border-radius:10px;font-weight:bold;text-decoration:none;color:white;}
 .kmlink:hover{text-decoration:none;color:#000066;background-color: yellow;border:2px solid yellow;}
 .pcenter{display: flex;justify-content: center;align-items: center;margin:0px;padding:0px;}
-.pfigure{width:30vh; margin:10px 0 10px 0; margin-left:auto; margin-right:auto;display:block;}
+.pfigure{width:30vh; margin-left:auto; margin-right:auto;display:block;text-align:center;}
 
 /*THEME SECTION*/
 .column2 {float: left;width: 20%;margin-bottom: 16px;padding:0 8px;}
@@ -139,22 +152,31 @@ padding: 5px 0;border-radius:10px;}
 .container p{color:black;font-weight:bold;font-size:15px;padding:2px;margin:5px;text-align:center;font-family:Verdana;}
 
 
-
-
 .button {font-family:Verdana;border: none;outline: 0;display: inline-block;padding: 8px;color: white;background-color: #000;text-align: center;cursor: pointer;width: 100%;font-size: 18px;margin:0px;}
 .button:hover{color: white;background-color: #000066;}
 
 
+/*TEAM SECTION*/
+
+table{font-family:verdana;width:100%;margin:auto;}
+
+th, td {padding: 5px;line-height:1.5}
+th{vertical-align:top;}
+
+
+/*CONTACT SECTION*/
+.contactsection{margin:0px;padding:0px;}
+.contactsectionp{font-family:Verdana;font-size:15px;text-align:center;margin:0px;padding:0px 50px 10px 50px;line-height: 1.5;}
 
 
 
 /* FOOTER SECTION*/
-.footer1{height:20%;display:flex;width: 100%;color:white;background:linear-gradient(to right, #782614,#000066);font-size:12px;margin:0px;padding-left:10px;}
+.footer1{height:20%;display:flex;width: 100%;color:white;background:linear-gradient(to right, #782614,#000066);font-size:12px;margin:0px;padding: 0px;}
 footer{width: 100%;color:white;background:linear-gradient(to right, #782614,#000066);font-size:12px;margin:0px;padding:0px;}
 
 
 /* Create three equal columns that floats next to each other */
-.column{width: 25%;padding-top:10px;}
+.column{width: 25%;padding: 10px;}
 
 /* Clear floats after the columns */
 .row::after {content: "";display: table;clear: both;}
@@ -162,6 +184,8 @@ footer{width: 100%;color:white;background:linear-gradient(to right, #782614,#000
 .footer-list{display:flex;justify-content:space-around;align-items:center;}
 .footer-text{text-align:center;}
 .footer-list li{list-style-type: none;display:inline-block;}
+
+.footer1list{padding:0px;margin:0px;}
 
 .footer1list li{color:white;list-style-type: none;padding:0px;}
 

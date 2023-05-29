@@ -96,7 +96,7 @@ padding: 5px 0;border-radius:10px;}
 .time-line{width: 100%;color:white;background:linear-gradient(to right, #782614,#000066);font-size:12px;margin:0px;text-align:center;}
 .time-line h2{font-family:Verdana;font-size:20px;color:white;margin:0px;padding: 10px 0 10px 0;}
 
-.special-section{display:flex;justify-content:center;margin: 10px 20px 0 20px;padding:0px;}
+.special-section{display:flex;justify-content:center;margin: 10px 20px 10px 20px;padding:0px;}
 .special-section h2{font-family:Montserrat;color:#A88F5F;text-align:left;padding:20px 20px 0 0;}
 .capcase{font-size:45px;font-weight:bold;}
 .special-section p{font-family:Montserrat;color:#A88F5F;font-size:18px;text-align:justify;padding:20px 30px 0 0;}
